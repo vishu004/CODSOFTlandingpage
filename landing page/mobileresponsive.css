@@ -1,0 +1,24 @@
+/* Navigation Bar */
+#navigation{
+    padding-right: 265px;
+}
+.logoimage img{
+    width: 60px;
+    height: 20px;
+}
+.container img{
+    width: 10px;
+    height: 10px;
+}
+.container1 a{
+    font-size: 12px;
+}
+/* .container1 span{
+    padding: ;
+} */
+.flipkartelectronicsale span{
+    font-size: 15px;
+}
+.flipkartelectronicsale p{
+    font-size: 10px;
+}

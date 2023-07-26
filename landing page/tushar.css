@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primarycolor: #2874f0;
+    --secondarycolor: #388e3c;
+}
+body{
+    background-color: #f1efef;
+}
+header{
+    background-color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+nav{
+    display: flex;
+    margin: 5px 0px ;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    height: 20px;
+    width: 80px;
+}
+#content{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: small;
+    padding-bottom: 10px;
+}
+#content:hover{
+    text-decoration: underline;
+}
+nav a img{
+    width: 10px;
+    height: 10px;
+}
+nav a span{
+    color: gold;
+}
+.search{
+    padding-left: 20px;
+}
+#searchbar{
+    padding: 8px 10px;
+    border: white;
+    width: 30vw;
+}
+.searchbutton{
+    background-color: white;
+    color: var(--primarycolor);
+    padding: 8px 10px;
+    border: none;
+    border-left: 2px solid var(--primarycolor);
+    cursor: pointer;
+}
+.loginbutton{
+    padding: 0px 20px;
+}
+.loginbutton button{
+    border-radius: 2px;
+    padding: 5px 40px;
+    font-size: 1rem;
+    background-color: white;
+    border: white;
+    /* font-weight: bold; */
+    color: var(--primarycolor);
+}
+.becomeaseller{
+    padding: 0px 20px;
+}
+.seller{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more{
+    padding: 0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more span a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
+.cart{
+    padding: 0px 20px;
+}
+.cart a{
+    text-decoration: none;
+}
+.cart a img{
+    width: 20px;
+    height: 20px;
+    /* background-color: var(--primarycolor); */
+}
+.cart a span{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 4px;
+}
+.container1{
+    height: 110px;
+    background-color: white;
+    border: white;
+    box-shadow: 2px 2px 5px gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container1 img{
+    width: 70px;
+    margin: 5px 40px;
+    cursor: pointer;
+}
+.container1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+}
+.container1 a:hover{
+    color: var(--primarycolor);
+}
+.topoffers a{
+    position: absolute;
+    left: 52px;
+    top: 136px;
+}
+.grocery a{
+    position: absolute;
+    left: 205px;
+    top: 136px;
+}
+.mobiles a{
+    position: absolute;
+    left: 353px;
+    top: 136px;
+}
+.fashion a{
+    position: absolute;
+    left: 507px;
+    top: 136px;
+}
+.electronics a{
+    position: absolute;
+    left: 645px;
+    top: 136px;
+}
+.home a{
+    position: absolute;
+    right: 503px;
+    top: 136px;
+}
+.appliances a{
+    position: absolute;
+    right: 342px;
+    top: 136px;
+}
+.travel a{
+    position: absolute;
+    right: 200px;
+    top: 136px;
+}
+.beauty a{
+    position: absolute;
+    right: 10px;
+    top: 136px;
+}
+.marpar{
+    margin: 5px;
+}
+@keyframes slide1{
+    0%{
+        transform: translate(-31vw);
+    }
+    100%{
+        transform: translate(80vw);
+    }
+}
+@keyframes slide2{
+    0%{
+        transform: translate(-37vw);
+    }
+    100%{
+        transform: translate(59vw);
+    }
+}
+.animation{
+    padding: 20px 0px;
+    /* background-color: white; */
+    overflow: hidden;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    /* z-index: -1; */
+}
+.moto img{
+    width: 100vw;
+    
+    /* background-color: white; */
+}
+.moto{
+    transform: translate(-37vw);
+    animation: slide2 2s 1s forwards;
+}
+.freedom{
+    transform: translate(-31vw);
+    animation: slide1 2s 1s forwards;
+}
+/* .deals{
+    background-color: #ffffff;
+    border: 2px solid black;
+    width: 70vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deals span{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.deals button{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+    background-color: var(--primarycolor);
+    border: 2px solid #2874f0;
+    position: relative;
+    left: 700px;
+    cursor: pointer;
+} */
+.supersell{
+    margin: 7px;
+    margin-top: 5px;
+    padding: 7px;
+    display: flex;
+}
+.dealsfor{
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid white;
+    height: 393px;
+}
+.beautytoys{
+    background-color: white;
+    margin: 0px 5px;
+}
+.heading2{
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px gray;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 5px; */
+    width: 74vw;
+}
+.heading2 span{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading2 button{
+    padding: 10px 15px;
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+    background-color: var(--primarycolor);
+    border: 2px solid #2874f0;
+    cursor: pointer;
+}
+.dealforaday{
+    display: flex;
+    overflow: scroll;
+    margin: 20px 0px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 0.9rem;
+}
+.dealforaday p{
+    line-height: 1.6rem;
+}
+.dealforaday .black{
+    color: black;
+}
+.dealforaday .green{
+    color: var(--secondarycolor);
+}
+.dealforaday .gray{
+    color: gray;
+}
+.dealforaday .goggles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dealforaday .goggles img{
+    width: 160px;
+    height: 80px;
+    margin: 0px 40px;
+    margin-top: 30px;
+    margin-bottom: 74px;
+}
+.dealforaday .remotecar img{
+    width: 160px;
+    height: 150px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+.dealforaday .remotecar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dealforaday .bedsheet img{
+    width: 160px;
+    height: 150px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+.dealforaday .bedsheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dealforaday .homerange img{
+    width: 160px;
+    height: 150px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+.dealforaday .homerange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dealforaday .belt img{
+    width: 160px;
+    height: 150px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+.dealforaday .belt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dealforaday .watch img{
+    width: 150px;
+    height: 160px;
+    margin: 0px 40px;
+    margin-bottom: 20px;
+}
+.dealforaday .watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dealforaday .wifi img{
+    width: 160px;
+    height: 150px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+.dealforaday .wifi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.supersell img{
+    margin: 9px;
+    width: 258px;
+    height: 366px;
+    border: 2px solid white;
+}
+.phone{
+    display: flex;
+}
+.phone1{
+    margin: 5px;
+    width: 465px;
+}
+.bigbrands{
+    margin: 5px;
+}
+.trimerdeals{
+    background-color: white;
+}
+.heading{
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px gray;
+    display: flex;
+    justify-content: space-between;
+}
+.heading span{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading button{
+    padding: 10px 15px;
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+    background-color: var(--primarycolor);
+    border: 2px solid #2874f0;
+    cursor: pointer;
+}
+.trim{
+    margin: 10px 10px;
+}
+.trim2{
+    display: flex;
+}
+.trimer{
+    width: 215px;
+    margin: 0px 20px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.trimer:hover{
+    color: var(--primarycolor);
+}
+.trimer .text1{
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.trimer img{
+    display: flex;
+    margin: auto;
+}
+.trimer1{
+    width: 190px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.trimer1:hover{
+    color: var(--primarycolor);
+}
+.trimer1 .text2{
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.trimer1 img{
+    display: flex;
+    margin: auto;
+}
+.trimer2{
+    width: 212px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.trimer2:hover{
+    color: var(--primarycolor);
+}
+.trimer2 .text3{
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.trimer2 img{
+    display: flex;
+    margin: auto;
+}
+.trimer3{
+    width: 200px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.trimer3 .text4{
+    font-size: 1rem;
+}
+.trimer3:hover{
+    color: var(--primarycolor);
+}
+.trimer3 img{
+    display: flex;
+    margin: auto;
+}
+.assured{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 10px;   
+}
+.rating1{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.rating2{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.rating1 .rate{
+    background-color: var(--secondarycolor);
+    border: 2px solid var(--secondarycolor);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 7px;
+}
+.rating2 .rate{
+    background-color: var(--secondarycolor);
+    border: 2px solid var(--secondarycolor);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 7px;
+}
+.rating1 .index{
+    margin-left: 10px;
+}
+.rating2 .index{
+    margin-left: 10px;
+}
+.rating .rate{
+    background-color: var(--secondarycolor);
+    border: 2px solid var(--secondarycolor);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 7px;
+}
+.rate{
+    display: flex;
+}
+.rating .rate img{
+    width: 11px;
+    position: relative;
+    top: -3px;
+    right: -3px;
+}
+.rating1 .rate img{
+    width: 11px;
+    position: relative;
+    top: -3px;
+    right: -3px;
+}
+.rating2 .rate img{
+    width: 11px;
+    position: relative;
+    top: -3px;
+    right: -3px;
+}
+.rating span img{
+    width: 82px;
+}
+.rating .index{
+    color: grey;
+    z-index: 1;
+}
+.rating1 .index{
+    color: grey;
+    z-index: 1;
+}
+.rating2 .index{
+    color: grey;
+    z-index: 1;
+}
+.price{
+    display: flex;
+}
+.price span{
+    margin-right: 10px;
+}
+.price .index1{
+    color: grey;
+    z-index: 1;
+    text-decoration: line-through;
+}
+.price .price1{
+    color: black;
+    font-weight: bold;
+}
+.price .discount{
+    color: var(--secondarycolor);
+    font-weight: bold;
+}
+.branddirectory{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.branddirectory .stories{
+    color: rgb(152, 147, 147);
+}
+.branddirectory .stories a{
+    color: black;
+    text-decoration: none;
+}
+.branddirectory .searched{
+    color: rgb(152, 147, 147);
+    line-height: 1.2rem;
+}
+.branddirectory .searched a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgb(65, 63, 63);
+}
+.links{
+    background-color: #212121;
+    color: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 250px 250px;
+    line-height: 2rem;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+.links span{
+    color: gray;
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.mailus{
+    line-height: 1rem;
+}
+.mailus span{
+    display: block;
+    margin-bottom: 10px;
+}
+.registeredoffice{
+    line-height: 1rem;
+}
+.registeredoffice span{
+    display: block;
+    margin-bottom: 10px;
+}
+.registeredoffice a{
+    color: skyblue;
+}
+.flex-all-center{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 0.9rem;
+}
+.flex-all-center p span{
+    cursor: pointer;
+}
+.linegray{
+    background-color: gray;
+}

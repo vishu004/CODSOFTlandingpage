@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primarycolor: #2874f0;
+    --secondarycolor: #388e3c;
+    --thirdcolor: #26a541;
+}
+header{
+    position: fixed;
+    z-index: 2;
+}
+body{
+    background-color: #f1efef;
+    font-family: Roboto,Arial,sans-serif;
+}
+header{
+    display: flex;
+    /* justify-content: ; */
+}
+.container{
+    background-color: var(--thirdcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1332px;
+    /* padding-right: 30px; */
+}
+.container .grocery a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Roboto,Arial,sans-serif;
+    padding-left: 200px;
+}
+.container .cart img{
+    width: 10px;
+}
+.search{
+    padding-left: 20px;
+}
+#searchbar{
+    padding: 8px 10px;
+    border: white;
+    width: 30vw;
+}
+.searchbutton{
+    background-color: white;
+    color: var(--secondarycolor);
+    padding: 8px 10px;
+    border: none;
+    border-left: 2px solid var(--secondarycolor);
+    cursor: pointer;
+}
+.location a{
+    color: white;
+    text-decoration: none;
+    /* font-style: italic; */
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-family: Roboto,Arial,sans-serif;
+    margin: 0px 30px;
+}
+.loginbutton{
+    padding: 0px 20px;
+}
+.loginbutton button{
+    border-radius: 2px;
+    padding: 5px 40px;
+    font-size: 1rem;
+    background-color: white;
+    border: white;
+    /* font-weight: bold; */
+    color: var(--secondarycolor);
+}
+.more{
+    padding: 0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more span a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
+.cart{
+    padding: 0px 20px;
+    /* padding-right: 50px; */
+}
+.cart a{
+    text-decoration: none;
+}
+.cart a img{
+    width: 20px;
+    /* height: 20px; */
+    /* background-color: var(--primarycolor); */
+}
+.cart a span{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 4px;
+
+}
+.flipkarthome{
+    background-color: var(--secondarycolor);
+}
+.groceryworkplace{
+    font-size: 12px;
+    padding: 45px 10px;
+    line-height: 1.1rem;
+    position: relative;
+    top: 45px;
+}
+.groceryworkplace a{
+    text-decoration: none;
+}
+.superbrands img{
+    width: 1332px;
+    margin: 0px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dryfruits img{
+    width: 1332px;
+    margin: 0px 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+}
+.foodgranins{
+    display: flex;
+    margin: 0px 10px;
+}
+.oilsandghee img{
+    width: 64vw;
+    height: 527px;
+    margin-right: 10px;
+}
+.orgaincrange img{
+    width: 33vw;
+}
+.rangeimage{
+    margin-bottom: 10px;
+}
+.homeandkitchen img{
+    width: 1332px;
+    margin: 0px 10px;
+}
+.kichencontainer{
+    display: flex;
+    padding: 0px 10px;
+    height: 308px;
+    background-color: gainsboro;
+    border-bottom: 1px solid black;
+}
+.kichencontainer img{
+    width: 440px;
+    margin-right: 7px;
+}
+.flipkartgrocerycontainer{
+    font-size: 12px;
+    padding: 40px 20px;
+    line-height: 1.1rem;
+    padding-bottom: 10px;
+}
+.onlinegrocerystore{
+    display: flex;
+    
+}
+.grocerystore{
+    width: 1000px;
+}
+.grocerystore span{
+    font-size: 18px;
+    color: rgb(116, 111, 111);
+    /* margin-bottom: 20px; */
+    font-weight: bold;
+}
+.groceryprices{
+    padding-left: 20px;
+    line-height: 2.3rem;
+}
+.groceryprices table{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+}
+.groceryprices table a{
+    text-decoration: none;
+}
+.flipkartgrocerycontainer .littletext{
+    color: rgb(107, 104, 104);
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.flipkartgrocerycontainer p{
+    color: rgb(161, 157, 157);
+}
+.flipkartgrocerycontainer p a{
+    text-decoration: none;
+}
+.groceryprices table tr{
+    display: flex;
+    flex-direction: row;
+}
+.grocerycategories{
+    font-size: 14px;
+    color: rgb(116, 111, 111);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.tablegrocery{
+    padding: 0px 20px;
+    border: #212121;
+}
+.tablegrocery table{
+    font-size: 0.8rem;
+    /* color: rgb(161, 157, 157); */
+}
+.tablegrocery table td{
+    padding: 3px 0px;
+    padding-left: 3px;
+    padding-right: 76px;
+    line-height: 12px;
+}
+.tablegrocery a{
+    text-decoration: none;
+}
+.handsanitizer{
+    font-size: 0.8rem;
+    color: rgb(161, 157, 157);
+    padding-top: 10px;
+}
+.questionanswercontainer p{
+    padding-left: 20px;
+    font-size: 12px;
+    /* padding-top: 10px; */
+    line-height: 1.1rem;
+    /* padding-bottom: 10px; */
+}
+.questionanswercontainer a{
+    text-decoration: none;
+}
+h4{
+    color: black;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.question1{
+    padding: 10px 0px;
+}
+.question2{
+    padding: 10px 0px;
+}
+.question3{
+    padding: 10px 0px;
+}
+.question4{
+    padding: 10px 0px;
+}
+.question5{
+    padding: 10px 0px;
+}
+.question6{
+    padding: 10px 0px;
+}
+.question7{
+    padding: 10px 0px;
+}
+.question8{
+    padding: 10px 0px;
+}
+.question9{
+    padding: 10px 0px;
+}
+.question10{
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+
+
+.links{
+    background-color: #212121;
+    color: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 250px 250px;
+    line-height: 2rem;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+.links span{
+    color: gray;
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.mailus{
+    line-height: 1rem;
+}
+.mailus span{
+    display: block;
+    margin-bottom: 10px;
+}
+.registeredoffice{
+    line-height: 1rem;
+}
+.registeredoffice span{
+    display: block;
+    margin-bottom: 10px;
+}
+.registeredoffice a{
+    color: skyblue;
+}
+.flex-all-center{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 0.9rem;
+}
+.flex-all-center p span{
+    cursor: pointer;
+}
+.linegray{
+    background-color: gray;
+}

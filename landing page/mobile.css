@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primarycolor: #2874f0;
+    --secondarycolor: #388e3c;
+}
+body{
+    background-color: #f1efef;
+}
+header{
+    width: 1440px;
+    background-color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    margin: 5px 0px ;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    height: 20px;
+    width: 80px;
+}
+#content{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: small;
+    padding-bottom: 10px;
+}
+#content:hover{
+    text-decoration: underline;
+}
+nav a img{
+    width: 10px;
+    height: 10px;
+}
+nav a span{
+    color: gold;
+}
+.search{
+    padding-left: 20px;
+}
+#searchbar{
+    padding: 8px 10px;
+    border: white;
+    width: 30vw;
+}
+.searchbutton{
+    background-color: white;
+    color: var(--primarycolor);
+    padding: 8px 10px;
+    border: none;
+    border-left: 2px solid var(--primarycolor);
+    cursor: pointer;
+}
+.loginbutton{
+    padding: 0px 20px;
+}
+.loginbutton button{
+    border-radius: 2px;
+    padding: 5px 40px;
+    font-size: 1rem;
+    background-color: white;
+    border: white;
+    /* font-weight: bold; */
+    color: var(--primarycolor);
+}
+.becomeaseller{
+    padding: 0px 20px;
+}
+.seller{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more{
+    padding: 0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more span a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
+.cart{
+    padding: 0px 20px;
+}
+.cart a{
+    text-decoration: none;
+}
+.cart a img{
+    width: 20px;
+    height: 20px;
+    /* background-color: var(--primarycolor); */
+}
+.cart a span{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 4px;
+}
+.bigcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px gray;
+    padding-top: 50px;
+}
+.container1 span{
+    padding: 10px 30px;
+}
+.container1 a{
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.flipkartelectronicsale{
+    padding: 20px 10px;
+    padding-bottom: 5px;
+}
+.flipkartelectronicsale span{
+    font-size: large;
+    font-weight: bold;
+    font-family: Roboto,Arial,sans-serif;
+    color: rgb(65, 63, 63);
+    /* padding-bottom: 20px; */
+    line-height: 40px;
+}
+.flipkartelectronicsale a{
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 13px;
+}
+.flipkartelectronicsale .link{
+    line-height: 22px;
+}
+.flipkartelectronicsale p{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    color: rgb(89, 88, 88);
+    line-height: 16px;
+}
+.smartphone img{
+    width: 1332px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.smartphonecontainer{
+    display: flex;
+    /* margin-bottom: 10px; */
+}
+.smartphonecontainer img{
+    margin-left:  8px;
+    width: 440px;
+}
+.smartphonecontainer1{
+    display: flex;
+}
+.smartphonecontainer1 img{
+    margin-left:  8px;
+    width: 440px;
+}
+.upcomingsales img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.sbicard img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.infinix img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.smartphonecontainer2{
+    display: flex;
+}
+.smartphonecontainer2 img{
+    margin-left:  8px;
+    width: 440px;
+}
+.smartphonecontainer3{
+    display: flex;
+}
+.smartphonecontainer3 img{
+    margin-left:  8px;
+    width: 440px;
+}
+.vivoflash img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.smartphonecontainer4{
+    display: flex;
+}
+.smartphonecontainer4 img{
+    margin-left:  8px;
+    width: 440px;
+}
+.samsung img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.smartphonecontainer5{
+    display: flex;
+}
+.smartphonecontainer5 img{
+    margin-left:  8px;
+    width: 440px;
+}
+.greatoffers img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.budgetphone img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.nokiaphone img{
+    margin:  0px 8px; 
+    width: 1336px;
+}
+.contentcontainer{
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+.lighttext{
+    font-family: Roboto,Arial,sans-serif;
+    color: rgb(83, 83, 83);   
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.contentcontainer .para1{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11px;
+    color: rgb(89, 88, 88);
+    line-height: 16px;
+}
+.contentcontainer a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.link2{
+    padding: 20px 0px;
+}
+.otherlink{
+    padding: 20px 20px;
+    color: rgb(89, 88, 88);
+    font-size: 12px;
+}
+.otherlink a{
+    text-decoration: none;
+}
+.questionandanswer{
+    padding-top: 30px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+hr{
+    color: white;
+}
+.questionandanswer .question1{
+    padding: 10px 20px;
+}
+.questionandanswer .question2{
+    padding: 10px 20px;
+}
+.questionandanswer .question3{
+    padding: 10px 20px;
+}
+.questionandanswer .question4{
+    padding: 10px 20px;
+}
+.heading{
+    color: black;
+    font-family: Roboto, Arial,sans-serif;
+    padding: 20px 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.links{
+    background-color: #212121;
+    color: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 250px 250px;
+    line-height: 2rem;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+.links span{
+    color: gray;
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.mailus{
+    line-height: 1rem;
+}
+.mailus span{
+    display: block;
+    margin-bottom: 10px;
+}
+.registeredoffice{
+    line-height: 1rem;
+}
+.registeredoffice span{
+    display: block;
+    margin-bottom: 10px;
+}
+.registeredoffice a{
+    color: skyblue;
+}
+.flex-all-center{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 0.9rem;
+}
+.flex-all-center p span{
+    cursor: pointer;
+}
+.linegray{
+    background-color: gray;
+}
